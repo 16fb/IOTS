@@ -1,0 +1,15 @@
+{
+  "name": "lagibagusbot",
+  "version": "1.0.0",
+  "description": "Telegram bot \"lagibagusbot\" implementing servless framework with AWS for IOTS module",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "16fb",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
