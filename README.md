@@ -16,5 +16,6 @@ The Whole flow of Safe Vault Process:
   * At each delivery, out collaboration company will update the database with respective delivery ID and Parcel No. to the matching Box ID
   * When the courier reaches the door step, He then will need to key in the Box ID, Parcerl No. along with his staff ID in order to verify himself.
   
-<img src="Electronic Parts Connection.jpg" alt="connection picture">
 ## Electronic Components Connection
+<img src="Electronic Parts Connection.jpg" alt="connection picture">
+
