@@ -24,6 +24,11 @@ The Whole flow of Safe Vault Process:
 ### Electronic Components Connection
 <img src="Electronic Parts Connection.jpg" alt="connection picture">
 
+### Time Diagram
+<img src="TimeDiagram.jpg" alt="Time picture">
+
+
+
 ## TelegramBot Commands
  1. **/Register**
  2. **/Unregister**
