@@ -12,7 +12,7 @@ IOTS repo for telegram bot hosted on aws lambda controlling a vault locking syst
 * ***Jia Nan***
 ## Infrastructure
 ### User-Service FLow Diagram
-<img src="user-service flow diagram.jpg" alt="diagram picture">
+<img src="Networkflow.PNG" alt="diagram picture">
 
 The Whole flow of Safe Vault Process:
 
