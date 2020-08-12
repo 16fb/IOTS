@@ -36,3 +36,7 @@ The Whole flow of Safe Vault Process:
  3. **/Unlock**
  4. **/OTP**
  5. **/UnlockOTP**
+ 
+ TR64 Compliance check
+ DDos on telegram bot
+ 
