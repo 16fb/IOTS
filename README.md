@@ -31,6 +31,7 @@ The Whole flow of Safe Vault Process:
 
 ## TelegramBot Commands
  1. **/Register**
+ Register the user to the bot using the box id and default password that is given to the user when the user rent out the box
  2. **/Unregister**
  3. **/Unlock**
  4. **/OTP**
