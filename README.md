@@ -1,4 +1,4 @@
-# IOTS ET0731 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Security](Security.md) [Improvments](Improvement.md)
+# IOTS ET0731 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Security](Security.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;[Improvments](Improvement.md)
 # Introduction
 During this special period of time, most of us will be in favour of not having close contact with strangers. For students and working adults, we sometimes will encounter times when the parcel arrives and we are unable to present at the point of time.This has caused our parcels to be left at the doorstep or kept in the riser, leaving them at risk of being stolen.
 
@@ -38,5 +38,36 @@ The Whole flow of Safe Vault Process:
  5. **/UnlockOTP**
  
  TR64 Compliance check
- DDos on telegram bot
+### Dread risk assessment
+|                            | DREAD RISK       |                 |                |                |                |              |
+| -------------------------- | ---------------- | --------------- | -------------- | -------------- | -------------- | ------------ |
+| Attack                     | Damage Potential | Reproducibility | Exploitability | Affected Users | Discoverablity | Risk (MAX=5) |
+| Spoofing                   |                  |                 |                |                |                |              |
+| WiFi access                | 3                | 5               | 4              | 2              | 1              | 3.2          |
+| Unauth connection (stolen) | 2                | 4               | 1              | 1              | 1              | 1.8          |
+| Cloning of hardware        | 5                | 4               | 4              | 2              | 4              | 3.8          |
+| Session hijack             | 4                | 1               | 3              | 1              | 3              | 2.4          |
+| Physical                   | 2                | 1               | 3              | 1              | 1              | 1.6          |
+| RF jamming                 | 4                | 4               | 4              | 2              | 1              | 3            |
+| Hardware Error             | 3                | 1               | 1              | 1              | 1              | 1.4          |
+| Man in the middle          | 5                | 2               | 4              | 1              | 5              | 3.4          |
+| Modified data              | 5                | 2               | 5              | 1              | 4              | 3.4          |
+| Door data leak             | 4                | 3               | 4              | 2              | 5              | 3.6          |
+| UUID Leak                  | 5                | 1               | 4              | 2              | 5              | 3.4          |
+| User ID Leak               | 4                | 1               | 4              | 4              | 3              | 3.2          |
+| Flooding                   | 5                | 5               | 4              | 4              | 1              | 3.8          |
+| Redirect notification      | 4                | 1               | 3              | 1              | 1              | 2            |
+| Botnet inclusion           | 3                | 1               | 2              | 1              | 5              | 2.4          |
+| Cryptojacking              | 3                | 1               | 4              | 1              | 4              | 2.6          |
+| Social engineering         | 5                | 5               | 5              | 3              | 2              | 4            |
+
+### TR64 Checklist
+
+| Attack       | Checklist                                                                                                                                   | TR64 Code                                 | Description                                                                                                           |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ESP32        | Tamper-proof Enclosure, No exposed joints/connectors to open device, Secure Communications                                                  | AP-04 AP-03 RS-03                         | Enclosure is not easily tampered with, Exposed ports are sealed off, ESP32 uses MQTTS                                 |
+| Telegram API | No disclosure of secure keys, alteration and extraction. Secure crypto processor is employed, client is identified with an unique ID        | FP-01 FP-03 IA-02 AP-02                   | Secure transmission of JSON through HTTPS with encryption. Client ID is generated from user initialization of the bot |
+| AWS system   | Unique non-modifiable IDs. IDs are hashed with salt. Identify and analyse threats.  Data is not stored in clear text, Secure Communications | IA-03<br>IA-01<br>CS-01<br>DP-03<br>RS-03 | Secure unique ids created upon device manufacture, salt generated alongside creation    
+
+DDos on telegram bot
  
