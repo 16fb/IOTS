@@ -160,7 +160,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/lagibagusbot/dev/1595986613787-2020-07-29T01:36:53.787Z/lagibagusbot.zip"
+                "S3Key": "serverless/lagibagusbot/dev/1597310410389-2020-08-13T09:20:10.389Z/lagibagusbot.zip"
               },
               "FunctionName": "lagibagusbot-dev-lagibagus",
               "Handler": "handler.lagibagus",
@@ -178,14 +178,14 @@
               "LagibagusLogGroup"
             ]
           },
-          "LagibagusLambdaVersionNb7SWzYAFJjzb4himmkKOI7mvpaVo5VkJOGdnRTtwNo": {
+          "LagibagusLambdaVersionupOemOYYcexGErth8URBaqVgXgzKenahZdV0mK3w": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "LagibagusLambdaFunction"
               },
-              "CodeSha256": "RmrYbga8trydNQBIWbGF6XBp3lhihBPSpR4j8eSms7k="
+              "CodeSha256": "hIPUBML+KW5Pl7ezqCf1LTHervmrvaRSNT3LwDF811M="
             }
           },
           "ApiGatewayRestApi": {
@@ -303,7 +303,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1595986604370": {
+          "ApiGatewayDeployment1597310396598": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -363,7 +363,7 @@
           "LagibagusLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "LagibagusLambdaVersionNb7SWzYAFJjzb4himmkKOI7mvpaVo5VkJOGdnRTtwNo"
+              "Ref": "LagibagusLambdaVersionupOemOYYcexGErth8URBaqVgXgzKenahZdV0mK3w"
             }
           },
           "ServiceEndpoint": {
@@ -498,16 +498,16 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "LagibagusLambdaVersionNb7SWzYAFJjzb4himmkKOI7mvpaVo5VkJOGdnRTtwNo"
+        "versionLogicalId": "LagibagusLambdaVersionupOemOYYcexGErth8URBaqVgXgzKenahZdV0mK3w"
       }
     },
     "serviceFilename": "serverless.yml",
     "layers": {},
     "isDashboardMonitoringPreconfigured": false,
-    "artifact": "D:\\_IOTS_CODE\\TelegramBotAWS\\.serverless\\lagibagusbot.zip"
+    "artifact": "D:\\_IOTS_CODE\\IOTS\\TelegramBotAWS\\.serverless\\lagibagusbot.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/lagibagusbot/dev/1595986613787-2020-07-29T01:36:53.787Z",
+    "artifactDirectoryName": "serverless/lagibagusbot/dev/1597310410389-2020-08-13T09:20:10.389Z",
     "artifact": "lagibagusbot.zip"
   }
 }
