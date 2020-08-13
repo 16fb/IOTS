@@ -97,4 +97,14 @@ The Whole flow of Safe Vault Process:
 | AWS system   | Unique non-modifiable IDs. passwordss are hashed with salt. Identify and analyse threats.  Data is stored in AWS RDS, Secure Communications | IA-03<br>IA-01<br>CS-01<br>DP-03<br>RS-03 | Secure unique ids created upon device manufacture, salt generated alongside creation    
 
 DDos on telegram bot
- 
+
+### other security stuff that can add
+
+### Potential Improvements, what can do + y
+
+### Database Creation + Configuration + MySQL show usage
+
+### Build Materials
+
+### References
+
