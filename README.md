@@ -31,38 +31,38 @@ The Whole flow of Safe Vault Process:
 
 ## TelegramBot Commands
  1. **/Register**
- Register owner to box by using default password
- Default password given after owner has paid for the box
- Owner generates a new password
- Password is hashed and salted before saved in database
+ - Register owner to box by using default password
+ - Default password given after owner has paid for the box
+ - Owner generates a new password
+ - Password is hashed and salted before saved in database
 
  2. **/Unregister**
 
  3. **/Unlock**
- Unlocks specifc box using password
- password is verified with hashed password in database
+ - Unlocks specifc box using password
+ - password is verified with hashed password in database
 
  4. **/OTP**
- Verifies Owner by verifying password and box_id
- Generates OTP and saves to database
- Tracks creation time and save to database 
+ - Verifies Owner by verifying password and box_id
+ - Generates OTP and saves to database
+ - Tracks creation time and save to database 
 
  5. **/UnlockOTP**
- Checks OTP of specifc box_id
- If OTP is valid and time elapse since creation not longer than 30 minutes
- Sends MQTTS command to unlock box
+ - Checks OTP of specifc box_id
+ - If OTP is valid and time elapse since creation not longer than 30 minutes
+ - Sends MQTTS command to unlock box
 
  6. **/delivery**
- Verifies delivery_id, box_id, staff_id of delivery man with Company current deliveries database
- delivery_id is unique to each parcel delivery
- staff_id is secret and specifc to specifc delivery staff
- box_id identifies the box
- If credentials valid, sends MQTTS command to unlock Box
+ - Verifies delivery_id, box_id, staff_id of delivery man with Company current deliveries database
+ - delivery_id is unique to each parcel delivery
+ - staff_id is secret and specifc to specifc delivery staff
+ - box_id identifies the box
+ - If credentials valid, sends MQTTS command to unlock Box
 
  7. **/check**
- Publishes MQTTS command to specifc box to determine if box has parcels
- ESP32 publishes reply, saved by lambda to database
- Telegram queries database to determine if box has parcels
+ - Publishes MQTTS command to specifc box to determine if box has parcels
+ - ESP32 publishes reply, saved by lambda to database
+ - Telegram queries database to determine if box has parcels
  
 
  TR64 Compliance check
