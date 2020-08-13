@@ -717,15 +717,17 @@ module.exports.Mqttiotcores = async event => {
 
 /* User Manual 
 
-/OTP box_id password
+/OTP <box_id> <password>
 
-/register box_id oldPass newPass 
+/register <box_id> <oldPass> <newPass> 
 
-/unlock box_id pass
+/unlock <box_id> <pass>
 
-/unlockotp box_id otp
+/unlockotp <box_id> <otp>
 
-/delivery delivery_id box_id staff_id 
+/delivery <delivery_id> <box_id> <staff_id> 
+
+/check <box_id>
 
 
 */
