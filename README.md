@@ -62,7 +62,7 @@ The Whole flow of Safe Vault Process:
  7. **/check**
  - Publishes MQTTS command to specifc box to determine if box has parcels
  - ESP32 publishes reply, saved by lambda to database
- - Telegram queries database to determine if box has parcels
+ -Telegram queries database to determine if box has parcels
  
 
  TR64 Compliance check
