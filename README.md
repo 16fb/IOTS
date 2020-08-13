@@ -43,9 +43,9 @@ The Whole flow of Safe Vault Process:
 | -------------------------- | ---------------- | --------------- | -------------- | -------------- | -------------- | ------------ |
 | Attack                     | Damage Potential | Reproducibility | Exploitability | Affected Users | Discoverablity | Risk (MAX=5) |
 | Spoofing                   |                  |                 |                |                |                |              |
-| WiFi access                | 3                | 5               | 4              | 2              | 1              | 3.2          |
-| Unauth connection (stolen) | 2                | 4               | 1              | 1              | 1              | 1.8          |
-| Cloning of hardware        | 5                | 4               | 4              | 2              | 4              | 3.8          |
+| WiFi access                | 3                | 5               | 4              | 2              | 2              | 3.2          |
+| Unauth connection (stolen) | 4                | 4               | 1              | 3              | 1              | 2.6          |
+| Cloning of hardware        | 2                | 4               | 4              | 2              | 4              | 3.2          |
 | Session hijack             | 4                | 1               | 3              | 1              | 3              | 2.4          |
 | Physical                   | 2                | 1               | 3              | 1              | 1              | 1.6          |
 | RF jamming                 | 4                | 4               | 4              | 2              | 1              | 3            |
@@ -58,16 +58,15 @@ The Whole flow of Safe Vault Process:
 | Flooding                   | 5                | 5               | 4              | 4              | 1              | 3.8          |
 | Redirect notification      | 4                | 1               | 3              | 1              | 1              | 2            |
 | Botnet inclusion           | 3                | 1               | 2              | 1              | 5              | 2.4          |
-| Cryptojacking              | 3                | 1               | 4              | 1              | 4              | 2.6          |
-| Social engineering         | 5                | 5               | 5              | 3              | 2              | 4            |
+| Cryptojacking              | x                | x               | x              | x              | x              | x         |
 
 ### TR64 Checklist
 
 | Attack       | Checklist                                                                                                                                   | TR64 Code                                 | Description                                                                                                           |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | ESP32        | Tamper-proof Enclosure, No exposed joints/connectors to open device, Secure Communications                                                  | AP-04 AP-03 RS-03                         | Enclosure is not easily tampered with, Exposed ports are sealed off, ESP32 uses MQTTS                                 |
-| Telegram API | No disclosure of secure keys, alteration and extraction. Secure crypto processor is employed, client is identified with an unique Owner ID        | FP-01 FP-03 IA-02 AP-02                   | Secure transmission of JSON through HTTPS with encryption. Client ID is generated from user initialization of the bot |
-| AWS system   | Unique non-modifiable IDs. IDs are hashed with salt. Identify and analyse threats.  Data is not stored in clear text, Secure Communications | IA-03<br>IA-01<br>CS-01<br>DP-03<br>RS-03 | Secure unique ids created upon device manufacture, salt generated alongside creation    
+| Telegram API | Client is identified with an unique Owner ID, users are identified by unique Credentials        | FP-01 FP-03 IA-02 AP-02                   | Secure transmission of JSON through HTTPS with encryption. OTP generated from user request of the bot to AWS, Secure Communications |
+| AWS system   | Unique non-modifiable IDs. passwordss are hashed with salt. Identify and analyse threats.  Data is stored in AWS RDS, Secure Communications | IA-03<br>IA-01<br>CS-01<br>DP-03<br>RS-03 | Secure unique ids created upon device manufacture, salt generated alongside creation    
 
 DDos on telegram bot
  
