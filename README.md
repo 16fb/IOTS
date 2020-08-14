@@ -1,4 +1,4 @@
-# IOTS ET0731 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Security](Security.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;[Improvments](Improvement.md)
+# IOTS ET0731 
 # Introduction
 During this special period of time, most of us will be in favour of not having close contact with strangers. For students and working adults, we sometimes will encounter times when the parcel arrives and we are unable to present at the point of time.This has caused our parcels to be left at the doorstep or kept in the riser, leaving them at risk of being stolen.
 
@@ -99,7 +99,7 @@ The Whole flow of Safe Vault Process:
 | Attack       | Checklist                                                                                                                                   | TR64 Code                                 | Description                                                                                                           |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | ESP32        | Tamper-proof Enclosure, No exposed joints/connectors to open device, Secure Communications                                                  | AP-04 AP-03 RS-03                         | Enclosure is not easily tampered with, Exposed ports are sealed off, ESP32 uses MQTTS                                 |
-| Telegram API | Client is identified with an unique Owner ID, users are identified by unique Credentials                                                    | FP-01 FP-03 IA-02 AP-02                   | Secure transmission of JSON through HTTPS with encryption. OTP generated from user request of the bot to AWS, Secure Communications |
+| Telegram API | Client is identified with an unique Owner ID, users are identified by unique Credentials                                       | FP-01 FP-03 IA-02 AP-02                        | Secure transmission of JSON through HTTPS with encryption. OTP generated from user request of the bot to AWS, Secure Communications |
 | AWS system   | Unique non-modifiable IDs. passwordss are hashed with salt. Identify and analyse threats.  Data is stored in AWS RDS, Secure Communications | IA-03<br>IA-01<br>CS-01<br>DP-03<br>RS-03 | Secure unique ids created upon device manufacture, salt generated alongside creation    
 
 DDos on telegram bot
