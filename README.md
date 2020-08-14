@@ -167,10 +167,10 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 
 ### Final product
 Inside Circuitry of box
-<img src="boxInside.jpg" alt="boxInside">
+<img src="boxInside.png" alt="boxInside">
 
 Outside Appearance of box
-<img src="box.jpg" alt="box">
+<img src="box.png" alt="box">
 
 
 ### Demo Video
