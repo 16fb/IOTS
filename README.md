@@ -175,16 +175,8 @@ Outside Appearance of box
 
 ### Demo Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lgbBAwMcBok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/lgbBAwMcBok/0.jpg)](https://www.youtube.com/watch?v=lgbBAwMcBok)
 
-<iframe
-  src="https://www.youtube.com/embed/lgbBAwMcBokg"
-  style="width:100%; height:300px;"
-></iframe>
-
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/lgbBAwMcBokg" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
 
 ### References
 bcrypt https://www.npmjs.com/package/bcryptjs
