@@ -146,6 +146,21 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 3D printer casing | Prevent Physical tampering
 
 ### Build Materials
+* Servo motor
+<img src="servo.jpg" alt="servo">
+* Stripboard
+<img src="Stripboard.jpg" alt="strip">
+* female pin
+<img src="female.jpg" alt="female">
+* LDR
+<img src="ldr.jpg" alt="ldr">
+* Ultrasonic sensor
+<img src="ultra.jpg" alt="ultra">
+* Box
+
+
+
+
 
 ### References
 bcrypt
