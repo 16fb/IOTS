@@ -83,7 +83,8 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 ### IOTcore
 Each device has its own publish or subscirbe topic
 Uses MQTT protocol
-<img src="RDSBackup.png" alt="RDSBackup">
+Permission for lambda to use iot core
+<img src="Screenshot(373).png" alt="permission">
 
 
 
