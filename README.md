@@ -35,22 +35,28 @@ The Whole flow of Safe Vault Process:
  - Default password given after owner has paid for the box
  - Owner generates a new password
  - Password is hashed and salted before saved in database
+ <img src="register.png" alt="register">
 
  **/Unregister**
 
  **/Unlock**
  - Unlocks specifc box using password
  - password is verified with hashed password in database
+ <img src="unlock.png" alt="unlock">
+
 
  **/OTP**
  - Verifies Owner by verifying password and box_id
  - Generates OTP and saves to database
  - Tracks creation time and save to database 
 
+
+
  **/UnlockOTP**
  - Checks OTP of specifc box_id
  - If OTP is valid and time elapse since creation not longer than 30 minutes
  - Sends MQTTS command to unlock box
+   <img src="OTP.png" alt="OTP">
 
  **/delivery**
  - Verifies delivery_id, box_id, staff_id of delivery man with Company current deliveries database
@@ -58,12 +64,12 @@ The Whole flow of Safe Vault Process:
  - staff_id is secret and specifc to specifc delivery staff
  - box_id identifies the box
  - If credentials valid, sends MQTTS command to unlock Box
-
+  <img src="delivery.png" alt="delivery">
  **/check**
  - Publishes MQTTS command to specifc box to determine if box has parcels
  - ESP32 publishes reply, saved by lambda to database
  - Telegram queries database to determine if box has parcels
- 
+   <img src="check.png" alt="check">
 ### Database Creation + Alarms
 Cloudwatch Alarms created to send notification on high number of login failures to database (in the event database enpoint exposed)
 Creation:
