@@ -121,7 +121,7 @@ Hashing OTP | Prevent OTP from being used if database leaked
 Input validation for telegrambot | Inputs can be checked to ensure utf-8
 More secure randomiser | Math.Random() is not cryptographically secure, a more secure library should be used 
 Non-repuditation | Safe Vault potentially vulnearble to replay attacks 
-
+3D printer casing | Prevent Physical tampering
 
 ### Build Materials
 
