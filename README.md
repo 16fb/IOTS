@@ -171,7 +171,9 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 
 ### References
 bcrypt
+
 sync-mysql
+
 telegram-cli
 
 https://iamondemand.com/blog/building-your-first-serverless-telegram-bot/
