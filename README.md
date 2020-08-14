@@ -104,14 +104,24 @@ The Whole flow of Safe Vault Process:
 
 DDos on telegram bot
 
-### other security stuff that can add
+### Potential Improvements
 
-### Potential Improvements, what can do + y
+Possible Improvements | Description/Resoning
+-----------|---------------------
+Use trusted library to generate OTP | standard open source library is more secure and has been cross examined by professionals.
+Password policy | users needs a policy to generate passwords of sufficient strength and mitigate brute-force attacks
+DDOS protection/Rate limiting | There is no rate limiting for telegram bot on lambda, DDOS attacks can bring down the usability of Safe Vault
+Hashing OTP | Prevent OTP from being used if database leaked
+Input validation for telegrambot | Inputs can be checked to ensure utf-8
+More secure randomiser | Math.Random() is not cryptographically secure, a more secure library should be used 
+Non-repuditation | Safe Vault potentially vulnearble to replay attacks 
 
 ### Database Creation + Configuration + MySQL show usage
 
 ### Build Materials
 
 ### References
+bcrypt
+sync-mysql
 
 ### Usage
