@@ -122,7 +122,8 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 
 
 ### Pen-Test on telegram bot
-
+<img src="pentest-1.jpg" alt="pentest1">
+<img src="pentest2.jpg" alt="pentest2">
 ### Potential Improvements
 
 Possible Improvements | Description/Resoning
