@@ -162,6 +162,9 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 * Box
 
 
+Original Intentions were to use a 3D printed housing, however labs being closed due to Covid-19, Cardboard was used instead 
+
+
 ### References
 bcrypt
 sync-mysql
