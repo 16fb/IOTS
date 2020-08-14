@@ -166,15 +166,15 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 <img src="ultra.jpg" alt="ultra">
 
 * Box
-
+<img src="box.jpg" alt="box">
 
 Original Intentions were to use a 3D printed housing, however labs being closed due to Covid-19, Cardboard was used instead 
 
 
 ### References
-bcrypt
+bcryptjs https://www.npmjs.com/package/bcryptjs
 
-sync-mysql
+sync-mysql https://www.npmjs.com/package/sync-mysql
 
 telegram-cli
 
