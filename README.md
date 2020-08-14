@@ -84,7 +84,7 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 Each device has its own publish or subscirbe topic
 Uses MQTT protocol
 Permission for lambda to use iot core
-<img src="Screenshot(373).png" alt="permission">
+<img src="Screenshot (373).png" alt="permission">
 
 
 ### DREAD risk assessment
