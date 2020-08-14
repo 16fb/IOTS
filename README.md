@@ -64,12 +64,12 @@ The Whole flow of Safe Vault Process:
  - staff_id is secret and specifc to specifc delivery staff
  - box_id identifies the box
  - If credentials valid, sends MQTTS command to unlock Box
-  <img src="delivery.png" alt="delivery">
+  <img src="Delivery.png" alt="delivery">
  **/check**
  - Publishes MQTTS command to specifc box to determine if box has parcels
  - ESP32 publishes reply, saved by lambda to database
  - Telegram queries database to determine if box has parcels
-   <img src="check.png" alt="check">
+   <img src="Check.png" alt="check">
 ### Database Creation + Alarms
 Cloudwatch Alarms created to send notification on high number of login failures to database (in the event database enpoint exposed)
 Creation:
