@@ -125,7 +125,13 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 
 
 ### Pen-Test on telegram bot
+Things to prepare:
+ * The telegram CLi
+ * Telegram API
+ * Ubuntu subsystem (for Windows system)
+Create a telegram bot for under the account used, Download & Configure Telegram Cli using Ubuntu subsystem. Link Telegram account with the Telegram Cli, Loop the text ("commands") within a loop.
 <img src="pentest-1.jpg" alt="pentest1">
+When the messgaes reaches 30 per second, the bot will stop receiving commands to prevent its own server to get attack, so its best not to spam the bot with frequent commands.
 <img src="pentest2.jpg" alt="pentest2">
 
 ### Potential Improvements
@@ -166,6 +172,7 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 ### References
 bcrypt
 sync-mysql
+telegram-cli
 
 https://iamondemand.com/blog/building-your-first-serverless-telegram-bot/
 https://docs.aws.amazon.com/iot/latest/developerguide/iot-lambda-rule.html
