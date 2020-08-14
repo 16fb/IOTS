@@ -165,6 +165,10 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 
 * Box
 
+### Final product
+<img src="box1.jpg" alt="box">
+<img src="box.jpg" alt="box">
+<img src="box2.jpg" alt="box">
 
 ### Demo Video
 
