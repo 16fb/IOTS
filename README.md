@@ -65,7 +65,7 @@ The Whole flow of Safe Vault Process:
  - Telegram queries database to determine if box has parcels
  
 ### Database Creation + Alarms
-Cloudwatch Alarms created to send notification on high number of login failures to database (in the event database enpoint exposed)
+Cloudwatch Alarms created to send notification on high number of login failures to database (in the event database endpoint exposed)
 Creation:
 <img src="CreationOfFailedLoginAlarm.png" alt="AlarmCreation">
 
@@ -76,8 +76,6 @@ Database backups for the last 7 days in case of database failure
 <img src="RDSBackup.png" alt="RDSBackup">
 
 
-
- TR64 Compliance check
 ### DREAD risk assessment
 |                            | DREAD RISK       |                 |                |                |                |              |
 | -------------------------- | ---------------- | --------------- | -------------- | -------------- | -------------- | ------------ |
