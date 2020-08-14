@@ -49,16 +49,17 @@ implementing security in the QR code
 */
 const rp = require('request-promise');
 var mysql = require('sync-mysql');
-const TELEGRAM_TOKEN = '<token>'; // cheng ee bot token
+// const TELEGRAM_TOKEN = '1009090418:AAHVBeQ5EeeDWwUVox8_G2RjP61VBE53bn8';
+const TELEGRAM_TOKEN = '1305135806:AAE_-quY63UGoFXo7W0DtOEFYQ3JJt97SDo'; // cheng ee bot token
 
 var AWS = require('aws-sdk');
-var iotdata = new AWS.IotData({ endpoint: '<MQTT Endpoint>' });
+var iotdata = new AWS.IotData({ endpoint: 'a1atsk8el8wpas-ats.iot.us-east-1.amazonaws.com' });
 
 var con = new mysql({ 
-    host: "<db endpoint>",
-    user: "<username>",
-    password: "<password>",
-    database: "<db>"
+    host: "databaseiots.cjthjauaprsn.us-east-1.rds.amazonaws.com",
+    user: "adminIOTS",
+    password: "masterpasswordIOTS",
+    database: "db"
 });
 
 // Hashing
@@ -489,7 +490,7 @@ async function sendToIotCoreclose()
 }
 
 
-module.exports.Mqttiotcores = async event => {
+module.exports.Mqttiotcores1 = async event => {
     const body = JSON.parse(event.body);
     const {chat, text} = body.message;
 
@@ -702,6 +703,7 @@ module.exports.Mqttiotcores = async event => {
         else // not empty 
         {
             resultMessage = verifyDelivery(delivery_id, box_id, staff_id);
+            openBox();
             await sendToUser(chat.id, resultMessage);
         }
     }  
@@ -717,17 +719,15 @@ module.exports.Mqttiotcores = async event => {
 
 /* User Manual 
 
-/OTP <box_id> <password>
+/OTP box_id password
 
-/register <box_id> <oldPass> <newPass> 
+/register box_id oldPass newPass 
 
-/unlock <box_id> <pass>
+/unlock box_id pass
 
-/unlockotp <box_id> <otp>
+/unlockotp box_id otp
 
-/delivery <delivery_id> <box_id> <staff_id> 
-
-/check <box_id>
+/delivery delivery_id box_id staff_id 
 
 
 */
