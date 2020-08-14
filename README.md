@@ -25,7 +25,8 @@ The Whole flow of Safe Vault Process:
 <img src="Electronic Parts Connection.jpg" alt="connection picture">
 
 ### Time Diagram
-<img src="TimeDiagram.jpg" alt="Time picture">
+<img src="Time Diagram.png" alt="Time picture">
+<img src="Time Diagram delivery.png" alt="Time Delivery picture">
 
 
 
