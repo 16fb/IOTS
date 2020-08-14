@@ -186,4 +186,7 @@ https://sea.banggood.com/10pcs-8P-2_54MM-Stackable-Long-Connector-Female-Pin-Hea
 https://www.rapidonline.com/feetech-fs90r-360-continuous-rotation-micro-servo-37-1335
 https://en.wikipedia.org/wiki/Stripboard
 
+### Demo Video
+https://www.youtube.com/watch?v=lgbBAwMcBok
+
 ### Usage
