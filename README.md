@@ -187,9 +187,9 @@ Outside Appearance of box
 </figure>
 
 ### References
-bcrypt
+bcrypt https://www.npmjs.com/package/bcryptjs
 
-sync-mysql
+sync-mysql https://www.npmjs.com/package/sync-mysql
 
 telegram-cli
 
