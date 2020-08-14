@@ -10,7 +10,6 @@ IOTS repo for telegram bot hosted on aws lambda controlling a vault locking syst
 * ***Lim Cheng Ee***
 * ***Chen XinHu***
 * ***Jia Nan***
-
 ## Infrastructure
 ### User-Service FLow Diagram
 <img src="Networkflow.PNG" alt="diagram picture">
@@ -135,7 +134,6 @@ Create a telegram bot for under the account used, Download & Configure Telegram 
 When the messgaes reaches 30 per second, the bot will stop receiving commands to prevent its own server to get attack, so its best not to spam the bot with frequent commands.
 <img src="pentest2.jpg" alt="pentest2">
 
-
 ### Potential Improvements
 
 Possible Improvements | Description/Resoning
@@ -166,23 +164,24 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 <img src="ultra.jpg" alt="ultra">
 
 * Box
-<img src="box.jpg" alt="box">
-
-Original Intentions were to use a 3D printed housing, however labs being closed due to Covid-19, Cardboard was used instead 
 
 
 ### Demo Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lgbBAwMcBok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+  src="https://www.youtube.com/embed/lgbBAwMcBokg"
+  style="width:100%; height:300px;"
+></iframe>
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/lgbBAwMcBokg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ### References
-bcryptjs https://www.npmjs.com/package/bcryptjs
+bcrypt
 
-sync-mysql https://www.npmjs.com/package/sync-mysql
+sync-mysql
 
 telegram-cli
 
@@ -199,3 +198,4 @@ https://en.wikipedia.org/wiki/Stripboard
 ### Demo Video
 https://www.youtube.com/watch?v=lgbBAwMcBok
 
+### Usage
