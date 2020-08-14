@@ -198,5 +198,3 @@ https://en.wikipedia.org/wiki/Stripboard
 
 ### Demo Video
 https://www.youtube.com/watch?v=lgbBAwMcBok
-
-### Usage
