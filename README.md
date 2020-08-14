@@ -75,6 +75,16 @@ Alarm:
 Database backups for the last 7 days in case of database failure
 <img src="RDSBackup.png" alt="RDSBackup">
 
+### Cloudwatch
+All input like MQTT are logged , when there is error the admin can use cloudwatch
+<img src="RDSBackup.png" alt="RDSBackup">
+
+
+### IOTcore
+Each device has its own publish or subscirbe topic
+Uses MQTT protocol
+<img src="RDSBackup.png" alt="RDSBackup">
+
 
 
  TR64 Compliance check
