@@ -75,6 +75,17 @@ Alarm:
 Database backups for the last 7 days in case of database failure
 <img src="RDSBackup.png" alt="RDSBackup">
 
+### Cloudwatch
+All input like MQTT are logged , when there is error the admin can use cloudwatch
+<img src="cloudwatch.png" alt="cloudwatch">
+
+
+### IOTcore
+Each device has its own publish or subscirbe topic
+Uses MQTT protocol
+Permission for lambda to use iot core
+<img src="Screenshot(373).png" alt="permission">
+
 
 ### DREAD risk assessment
 |                            | DREAD RISK       |                 |                |                |                |              |
@@ -116,7 +127,7 @@ Hashing OTP | Prevent OTP from being used if database leaked
 Input validation for telegrambot | Inputs can be checked to ensure utf-8
 More secure randomiser | Math.Random() is not cryptographically secure, a more secure library should be used 
 Non-repuditation | Safe Vault potentially vulnearble to replay attacks 
-
+3D printer casing | Prevent Physical tampering
 
 ### Build Materials
 
