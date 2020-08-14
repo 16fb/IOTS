@@ -121,7 +121,7 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 | AWS system   | Passwords are hashed + salted with verified library. Code prevent SQL injection. AWS RDS database, Secure Communications in Virtual Cloud, database backups and Alarms | IA-01 CS-02 DP-03 NP-01 AU-01					 | Verified library bcrypt used for hashing and salting. Usage of mysql library prevents SQL injection, services are isolated virtual cloud. Alarm on many unsuccessful login attempts to databse
 
 
-DDos on telegram bot
+### Pen-Test on telegram bot
 
 ### Potential Improvements
 
