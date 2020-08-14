@@ -85,6 +85,8 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 * Uses MQTT protocol
 * Permission for lambda to use iot core
 <img src="Screenshot (373).png" alt="permission">
+* Rules to trigger lambda using lambda
+<img src="rules.png" alt="rules">
 
 
 
