@@ -38,20 +38,15 @@ The Whole flow of Safe Vault Process:
  - Password is hashed and salted before saved in database
  <img src="register.png" alt="register">
 
- **/Unregister**
-
  **/Unlock**
  - Unlocks specifc box using password
  - password is verified with hashed password in database
  <img src="unlock.png" alt="unlock">
 
-
  **/OTP**
  - Verifies Owner by verifying password and box_id
  - Generates OTP and saves to database
  - Tracks creation time and save to database 
-
-
 
  **/UnlockOTP**
  - Checks OTP of specifc box_id
@@ -66,11 +61,13 @@ The Whole flow of Safe Vault Process:
  - box_id identifies the box
  - If credentials valid, sends MQTTS command to unlock Box
   <img src="Delivery.png" alt="delivery">
+
  **/check**
  - Publishes MQTTS command to specifc box to determine if box has parcels
  - ESP32 publishes reply, saved by lambda to database
  - Telegram queries database to determine if box has parcels
    <img src="Check.png" alt="check">
+
 ### Database Creation + Alarms
 Cloudwatch Alarms created to send notification on high number of login failures to database (in the event database endpoint exposed)
 Creation:
@@ -92,6 +89,7 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 * Uses MQTT protocol
 * Permission for lambda to use iot core
 <img src="Screenshot (373).png" alt="permission">
+
 * Rules to trigger lambda using lambda
 <img src="rules.png" alt="rules">
 
@@ -146,14 +144,19 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 ### Build Materials
 * Servo motor
 <img src="servo.jpg" alt="servo">
+
 * Stripboard
 <img src="Stripboard.jpg" alt="strip">
+
 * female pin
 <img src="female.jpg" alt="female">
+
 * LDR
 <img src="ldr.jpg" alt="ldr">
+
 * Ultrasonic sensor
 <img src="ultra.jpg" alt="ultra">
+
 * Box
 
 
