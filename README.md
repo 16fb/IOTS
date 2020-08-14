@@ -166,4 +166,14 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 bcrypt
 sync-mysql
 
+https://iamondemand.com/blog/building-your-first-serverless-telegram-bot/
+https://docs.aws.amazon.com/iot/latest/developerguide/iot-lambda-rule.html
+
+### Image reference
+http://amicus.com.sg/index.php?route=product/product&product_id=3889
+https://create.arduino.cc/projecthub/csw1/ultrasonic-sensor-with-arduino-uno-f33ca1
+https://sea.banggood.com/10pcs-8P-2_54MM-Stackable-Long-Connector-Female-Pin-Header-p-1205369.html?cur_warehouse=CN
+https://www.rapidonline.com/feetech-fs90r-360-continuous-rotation-micro-servo-37-1335
+https://en.wikipedia.org/wiki/Stripboard
+
 ### Usage
