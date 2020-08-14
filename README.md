@@ -173,7 +173,9 @@ Original Intentions were to use a 3D printed housing, however labs being closed 
 
 ### Demo Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lgbBAwMcBok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/lgbBAwMcBokg" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ### References
 bcryptjs https://www.npmjs.com/package/bcryptjs
