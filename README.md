@@ -1,4 +1,4 @@
-# IOTS ET0731 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Security](Security.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;[Improvments](Improvement.md)
+# IOTS ET0731 
 # Introduction
 During this special period of time, most of us will be in favour of not having close contact with strangers. For students and working adults, we sometimes will encounter times when the parcel arrives and we are unable to present at the point of time.This has caused our parcels to be left at the doorstep or kept in the riser, leaving them at risk of being stolen.
 
