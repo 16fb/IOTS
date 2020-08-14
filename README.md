@@ -77,7 +77,7 @@ Database backups for the last 7 days in case of database failure
 
 ### Cloudwatch
 All input like MQTT are logged , when there is error the admin can use cloudwatch
-<img src="RDSBackup.png" alt="RDSBackup">
+<img src="cloudwatch.png" alt="cloudwatch">
 
 
 ### IOTcore
