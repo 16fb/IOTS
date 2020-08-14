@@ -171,6 +171,10 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 Original Intentions were to use a 3D printed housing, however labs being closed due to Covid-19, Cardboard was used instead 
 
 
+### Demo Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lgbBAwMcBok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 bcryptjs https://www.npmjs.com/package/bcryptjs
 
@@ -187,4 +191,7 @@ https://create.arduino.cc/projecthub/csw1/ultrasonic-sensor-with-arduino-uno-f33
 https://sea.banggood.com/10pcs-8P-2_54MM-Stackable-Long-Connector-Female-Pin-Header-p-1205369.html?cur_warehouse=CN
 https://www.rapidonline.com/feetech-fs90r-360-continuous-rotation-micro-servo-37-1335
 https://en.wikipedia.org/wiki/Stripboard
+
+### Demo Video
+https://www.youtube.com/watch?v=lgbBAwMcBok
 
