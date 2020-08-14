@@ -10,6 +10,7 @@ IOTS repo for telegram bot hosted on aws lambda controlling a vault locking syst
 * ***Lim Cheng Ee***
 * ***Chen XinHu***
 * ***Jia Nan***
+
 ## Infrastructure
 ### User-Service FLow Diagram
 <img src="Networkflow.PNG" alt="diagram picture">
@@ -128,6 +129,7 @@ All input like MQTT are logged , when there is error the admin can use cloudwatc
 <img src="pentest-1.jpg" alt="pentest1">
 <img src="pentest2.jpg" alt="pentest2">
 
+
 ### Potential Improvements
 
 Possible Improvements | Description/Resoning
@@ -160,9 +162,6 @@ Non-repuditation | Safe Vault potentially vulnearble to replay attacks
 * Box
 
 
-
-
-
 ### References
 bcrypt
 sync-mysql
@@ -177,4 +176,3 @@ https://sea.banggood.com/10pcs-8P-2_54MM-Stackable-Long-Connector-Female-Pin-Hea
 https://www.rapidonline.com/feetech-fs90r-360-continuous-rotation-micro-servo-37-1335
 https://en.wikipedia.org/wiki/Stripboard
 
-### Usage
