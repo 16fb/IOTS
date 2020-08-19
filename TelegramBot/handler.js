@@ -49,16 +49,15 @@ implementing security in the QR code
 */
 const rp = require('request-promise');
 var mysql = require('sync-mysql');
-// const TELEGRAM_TOKEN = '1009090418:AAHVBeQ5EeeDWwUVox8_G2RjP61VBE53bn8';
-const TELEGRAM_TOKEN = '1305135806:AAE_-quY63UGoFXo7W0DtOEFYQ3JJt97SDo'; // cheng ee bot token
+const TELEGRAM_TOKEN = '<token>'; // cheng ee bot token
 
 var AWS = require('aws-sdk');
-var iotdata = new AWS.IotData({ endpoint: 'a1atsk8el8wpas-ats.iot.us-east-1.amazonaws.com' });
+var iotdata = new AWS.IotData({ endpoint: '<endpoint>' });
 
 var con = new mysql({ 
-    host: "databaseiots.cjthjauaprsn.us-east-1.rds.amazonaws.com",
-    user: "adminIOTS",
-    password: "masterpasswordIOTS",
+    host: "<hostid>",
+    user: "<userAdmin>",
+    password: "<pass>",
     database: "db"
 });
 
