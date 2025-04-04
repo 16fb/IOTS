@@ -1,4 +1,10 @@
-# IOTS ET0731 
+# IOTS ET0731
+# Context
+IoT Group project as part of Year 3 module, IOTS ET0731, in Singapore Poly.
+Conceptually, this is a PickLocker service, made in August 2020, before PickNetwork was officially launched in Singapore (to the best of my knowledge was released in 2021).
+Implemented using a front-facing Telegram Bot, using AWS lambda functions as a serverless implementation of a control server. 
+Commands sent to physical ESP32 box/vault thru MQTT Topic. 
+
 # Introduction
 During this special period of time, most of us will be in favour of not having close contact with strangers. For students and working adults, we sometimes will encounter times when the parcel arrives and we are unable to present at the point of time.This has caused our parcels to be left at the doorstep or kept in the riser, leaving them at risk of being stolen.
 
